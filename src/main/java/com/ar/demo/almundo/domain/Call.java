@@ -1,5 +1,10 @@
 package com.ar.demo.almundo.domain;
 
+/**
+ * Clase que modela una llamada que tiene una duración x,  que puede cambiar de estado y un ID
+ * @author oscar
+ *
+ */
 public class Call {
 	
 	private Integer duration;

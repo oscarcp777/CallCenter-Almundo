@@ -1,5 +1,11 @@
 package com.ar.demo.almundo.domain;
-
+/**
+ * Clase que modela un Empleado que tiene un tipo,
+ *         que puede cambiar de status y un ID
+ *         El empleado por Defecto tiene un status Libre
+ * @author oscar
+ *
+ */
 public class Employee {
 
 	private TypeEmployee type;

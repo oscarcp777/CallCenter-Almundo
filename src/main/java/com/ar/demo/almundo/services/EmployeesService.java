@@ -10,15 +10,14 @@ import com.ar.demo.almundo.domain.Employee;
 import com.ar.demo.almundo.domain.TypeEmployee;
 
 /**
+ * Mock que simula un servicio o un consumer que traeria los empleados
  * @author oscar
- *  
- *      Esta Clase es un Mock que simula un servicio que provee Empleados
  *
  */
 public class EmployeesService {
 
 	/**
-	 *     Metodo que simula la llamada a un servicios que provee los empleados por tipo de empleados
+	 *     Metodo que simula la llamada a un servicios que provee los empleados por tipo de empleados 
 	 *     
 	 *     recibo como parametros  la cantidad  de operadores, supervisores y directores
 	 *     

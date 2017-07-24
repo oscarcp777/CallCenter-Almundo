@@ -5,16 +5,16 @@
   <class id="1" language="java" name="com.ar.demo.almundo.domain.process.Dispatcher" project="CallCenter" 
     file="/CallCenter/src/main/java/com/ar/demo/almundo/domain/process/Dispatcher.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="212" y="101"/>    
+    <position height="-1" width="-1" x="218" y="655"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <attributes public="true" package="true" protected="true" private="true" static="false"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
   <class id="2" language="java" name="com.ar.demo.almundo.domain.process.Task" project="CallCenter" 
     file="/CallCenter/src/main/java/com/ar/demo/almundo/domain/process/Task.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="624" y="421"/>    
+    <position height="-1" width="-1" x="530" y="629"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -23,7 +23,7 @@
   </class>  
   <class id="3" language="java" name="com.ar.demo.almundo.domain.Call" project="CallCenter" 
     file="/CallCenter/src/main/java/com/ar/demo/almundo/domain/Call.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="364" y="420"/>    
+    <position height="-1" width="-1" x="174" y="98"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -32,7 +32,7 @@
   </class>  
   <class id="4" language="java" name="com.ar.demo.almundo.domain.Employee" project="CallCenter" 
     file="/CallCenter/src/main/java/com/ar/demo/almundo/domain/Employee.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="529" y="31"/>    
+    <position height="-1" width="-1" x="443" y="87"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -41,7 +41,7 @@
   </class>  
   <enumeration id="5" language="java" name="com.ar.demo.almundo.domain.StatusCall" project="CallCenter" 
     file="/CallCenter/src/main/java/com/ar/demo/almundo/domain/StatusCall.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="135" y="425"/>    
+    <position height="-1" width="-1" x="101" y="353"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -50,7 +50,7 @@
   </enumeration>  
   <enumeration id="6" language="java" name="com.ar.demo.almundo.domain.StatusEmployee" project="CallCenter" 
     file="/CallCenter/src/main/java/com/ar/demo/almundo/domain/StatusEmployee.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="782" y="12"/>    
+    <position height="-1" width="-1" x="738" y="94"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -59,76 +59,57 @@
   </enumeration>  
   <enumeration id="7" language="java" name="com.ar.demo.almundo.domain.TypeEmployee" project="CallCenter" 
     file="/CallCenter/src/main/java/com/ar/demo/almundo/domain/TypeEmployee.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="771" y="176"/>    
+    <position height="-1" width="-1" x="617" y="334"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </enumeration>  
-  <class id="8" language="java" name="com.ar.demo.almundo.services.CallService" project="CallCenter" 
-    file="/CallCenter/src/main/java/com/ar/demo/almundo/services/CallService.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="644" y="705"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="9" language="java" name="com.ar.demo.almundo.services.EmployeesService" project="CallCenter" 
-    file="/CallCenter/src/main/java/com/ar/demo/almundo/services/EmployeesService.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="260" y="701"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <association id="10">    
+  <association id="8">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="11" name="call"/>      
-      <multiplicity id="12" minimum="0" maximum="1"/>    
+      <attribute id="9" name="call"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="13">    
+  <association id="11">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="14" name="callsQueue"/>      
-      <multiplicity id="15" minimum="0" maximum="2147483647"/>    
+      <attribute id="12" name="callsQueue"/>      
+      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
     </end>    
     <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="16">    
+  <association id="14">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="17" name="status"/>      
-      <multiplicity id="18" minimum="0" maximum="1"/>    
+      <attribute id="15" name="status"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="19">    
+  <association id="17">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="20" name="status"/>      
-      <multiplicity id="21" minimum="0" maximum="1"/>    
+      <attribute id="18" name="status"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="6" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="22">    
+  <association id="20">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="23" name="employee"/>      
-      <multiplicity id="24" minimum="0" maximum="1"/>    
+      <attribute id="21" name="employee"/>      
+      <multiplicity id="22" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <association id="25">    
+  <association id="23">    
     <end type="SOURCE" refId="4" navigable="false">      
-      <attribute id="26" name="type"/>      
-      <multiplicity id="27" minimum="0" maximum="1"/>    
+      <attribute id="24" name="type"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  

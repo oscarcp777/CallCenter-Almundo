@@ -1,5 +1,10 @@
 package com.ar.demo.almundo.domain;
 
+/**
+ * Modela los tipos que pueden ser los empleados
+ * @author oscar
+ *
+ */
 public enum TypeEmployee {
 
 	DIRECTOR(3),OPERATOR(1),SUPERVISOR(2);
